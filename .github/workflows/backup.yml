@@ -5,6 +5,9 @@ name: Backup latest articles
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the main branch
 on:
+  push:
+    branches: [ main ]
+    paths-ignore: "./backup"
   schedule:
     - cron: 0 * * * *
 
