@@ -44,6 +44,6 @@ jobs:
           git config --global user.name 'KiruyaMomochi'
           git config --global user.email 'KiruyaMomochi@users.noreply.github.com'
           $time = [System.TimeZoneInfo]::ConvertTimeBySystemTimeZoneId((Get-Date), 'Asia/Taipei').ToString("yyyy-MM-dd HH:mm:ss")
-          git add
+          git add .
           git commit -m $time
           git push
