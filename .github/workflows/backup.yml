@@ -34,7 +34,7 @@ jobs:
       - name: Fetch wikitext
         working-directory: "./backup"
         run: |
-          $data = @{action='query'; prop='revisions'; rvprop='content'; format='json'; titles='超異域公主連結|超異域公主連結/登場角色一覽'}
+          $data = @{action='query'; prop='revisions'; rvprop='content'; format='json'; titles='超異域公主連結|超異域公主連結/登場角色一覽|凱留'}
           $res = Invoke-RestMethod 'https://wiki.komica.org/api.php' -Body $data
           $res.query.pages.PSObject.Properties.Value | ForEach-Object {Set-Content -Path "$($_.title.replace('/','_')).wiki" -Value $_.revisions.'*'}
 
