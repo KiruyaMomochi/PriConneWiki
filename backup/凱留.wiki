@@ -1,5 +1,4 @@
 {{h0|凱留（キャル）/Karyl}}
-
 {| class="wikitable" style="margin:1.5em auto;"
 |-
 |colspan="2" align="center"|本條目歡迎熱心的騎士君幫忙補完
@@ -8,7 +7,7 @@
 |-
 |colspan="2" align="center"|沒玩過遊戲還看下去，'''真的會宰了你喔！'''
 |}
-[[檔案:凱留立繪.png|center|350px]]
+[[檔案:凱留立繪.png|center|330px]]
 
 == 解說 ==
 * 遊戲《[[超異域公主連結|超異域公主連結！Re:Dive]]》中的[[角色]]，為主角團公會[[超異域公主連結/登場角色一覽#美食殿堂（美食殿（びしょくでん））|美食殿堂]]的一員
@@ -150,4 +149,4 @@
 
 ==備註==
 
-[[category:角色]] [[category:超異域公主連結]]
+[[category:角色]] [[category:超異域公主連結|美食殿堂]]
